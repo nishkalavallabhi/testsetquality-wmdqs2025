@@ -18,12 +18,12 @@ the annotators interpreted and refined the more coarse-grained
 "concerns" that were defined for the annotation task.
 
 To look into the errors identified in the French dataset, use the
-columns "Consensus" (for the concerns) and "Fine error types". For the
-two Telugu datasets, use the columns "concerns-A" and "concerns-B" (as
+columns `Consensus` (for the concerns) and `Fine error types`. For the
+two Telugu datasets, use the columns `concerns-A` and `concerns-B` (as
 consensus deliberation was not conducted on these datasets), as well
-as "Fine error types".
+as `Fine error types`.
 
 To reproduce our experiments on LLM evaluation in French, filter out
-all samples except those where the value in the "Consensus" column is
+all samples except those where the value in the `Consensus` column is
 "NoConcerns". For Telugu, filter out all samples except those where
-BOTH "concerns-A" and "concerns-B" contain the value "NoConcerns".
+BOTH `concerns-A` and `concerns-B` contain the value "NoConcerns".
